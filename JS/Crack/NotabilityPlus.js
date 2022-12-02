@@ -6,7 +6,7 @@
 [rewrite_local]
 
 
-^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/wanghao6736/QuanX/JS/Crack/NotabilityPlus.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/wanghao6736/QuanX/master/JS/Crack/NotabilityPlus.js
 
 [mitm] 
 
