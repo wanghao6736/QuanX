@@ -4,3 +4,6 @@ Profile/release.conf
 
 # vscode
 .vscode/
+
+# Debug
+JS/Debug/
