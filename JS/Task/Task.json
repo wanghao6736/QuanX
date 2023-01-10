@@ -1,0 +1,22 @@
+{
+  "name": "Tasks-WH",
+  "description": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/JS/Task/Task.json",
+  "task": [
+    {
+      "config": "5 0 * * * https://raw.githubusercontent.com/wanghao6736/QuanX/master/JS/Task/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/Rewrite/GetCookie.conf, tag=获取 Cookie"
+    },
+    {
+      "config": "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag=百度贴吧签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/tieba.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/Rewrite/GetCookie.conf, tag=获取 Cookie"
+    },
+    {
+      "config": "5 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/Rewrite/GetCookie.conf, tag=获取 Cookie"
+    },
+    {
+      "config": "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/bilibili.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/Rewrite/GetCookie.conf, tag=获取 Cookie"
+    }
+  ]
+}
