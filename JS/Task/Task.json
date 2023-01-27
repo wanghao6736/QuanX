@@ -3,7 +3,7 @@
   "description": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/JS/Task/Task.json",
   "task": [
     {
-      "config": "5 0 * * * https://raw.githubusercontent.com/wanghao6736/QuanX/master/JS/Task/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true",
+      "config": "5 0 * * * https://raw.githubusercontent.com/wanghao6736/QuanX/master/JS/Task/jdDaily.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true",
       "addons": "https://raw.githubusercontent.com/wanghao6736/QuanX/master/Rewrite/GetCookie.conf, tag=获取 Cookie"
     },
     {
