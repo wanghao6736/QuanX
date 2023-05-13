@@ -119,9 +119,10 @@ async function notify() {
         var DName = merge.TotalBean && merge.TotalBean.nickname ? merge.TotalBean.nickname : "获取失败"
         var cnNum = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
         const Name = `【签到号${cnNum[0]}】: ${DName}\n`
-        $.notify("", "", Name + one + two + three + four + five + notify, {
-            'media-url': merge.TotalBean.headUrl || 'https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/jd.png'
-        });
+        // $.notify("", "", Name + one + two + three + four + five + notify, {
+        //     'media-url': merge.TotalBean.headUrl || 'https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/jd.png'
+        // });
+        $.notify("", "", Name + one + two + three + four + five + notify);
     } catch (e) {
         $.notify("通知模块 " + e.name + "‼️", $.stringify(e), e.message)
     }
