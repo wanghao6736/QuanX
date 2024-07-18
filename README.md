@@ -9,3 +9,5 @@
 ## API
 
 [OpenAPI](https://github.com/Peng-YM/QuanX/tree/master/Tools/OpenAPI)@[Peng-YM](https://github.com/Peng-YM)
+[Parser](https://github.com/KOP-XIAO/QuantumultX)@[KOP-XIAO](https://github.com/KOP-XIAO)
+[Developer](https://github.com/crossutility/Quantumult-X)@[crossutility](https://github.com/crossutility/Quantumult-X)
